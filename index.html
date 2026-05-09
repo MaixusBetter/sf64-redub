@@ -230,7 +230,6 @@ const CFG = {
     OWNER: 'MaixusBetter',
     REPO:  'sf64-redub',
     PWD_HASH: 'fdd7546fbbe7712709ea191b28b9ed41390cf5af478ea9e2c238c50483e0096a',
-    ACTIONS_TOKEN: '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',
 };
 const BASE = `https://${CFG.OWNER}.github.io/${CFG.REPO}`;
 const API  = `https://api.github.com/repos/${CFG.OWNER}/${CFG.REPO}`;
@@ -391,24 +390,21 @@ async function upload(file, line) {
     try {
         const buf = await file.arrayBuffer();
         const b64 = toBase64(buf);
-        const res = await fetch(`${API}/dispatches`, {
-            method:'POST',
-            headers:{'Content-Type':'application/json','Accept':'application/vnd.github.v3+json','Authorization':`token ${CFG.ACTIONS_TOKEN}`},
-            body: JSON.stringify({
-                event_type:'voice-upload',
-                client_payload:{ character:curChar, msgId:line.msgId, data:b64 }
-            })
+        const res = await fetch('https://sf64-upload.xamg2004.workers.dev', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ character: curChar, msgId: line.msgId, data: b64 })
         });
-        if (res.ok||res.status===204) {
+        const json = await res.json();
+        if (json.ok) {
             submitted.add(line.msgId);
             onSubmitSuccess(line);
         } else {
-            const e=await res.json().catch(()=>({}));
-            setStatus(`Upload failed: ${e.message||res.status}`,'err');
+            setStatus(`Upload failed: ${json.error||'unknown error'}`, 'err');
             document.getElementById('dz').className='drop-zone';
         }
     } catch(e) {
-        setStatus(`Error: ${e.message}`,'err');
+        setStatus(`Error: ${e.message}`, 'err');
         document.getElementById('dz').className='drop-zone';
     }
 }
