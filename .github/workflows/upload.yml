@@ -1,0 +1,27 @@
+name: Voice Submission Upload
+
+on:
+  repository_dispatch:
+    types: [voice-upload]
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.UPLOAD_TOKEN }}
+
+      - name: Save submission
+        run: |
+          mkdir -p "submissions/${{ github.event.client_payload.character }}"
+          echo "${{ github.event.client_payload.data }}" | base64 -d > "submissions/${{ github.event.client_payload.character }}/${{ github.event.client_payload.msgId }}.wav"
+
+      - name: Commit and push
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "SF64 Redub Bot"
+          git add submissions/
+          git diff --staged --quiet || git commit -m "[VOICE] ${{ github.event.client_payload.character }} — msgId ${{ github.event.client_payload.msgId }}"
+          git push
