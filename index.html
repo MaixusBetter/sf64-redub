@@ -42,11 +42,8 @@ body::before {
     animation: stars 60s linear infinite;
 }
 @keyframes stars { from { background-position: 0 0; } to { background-position: 300px 300px; } }
-
 .screen { display: none; position: relative; z-index: 1; min-height: 100vh; }
 .screen.active { display: flex; flex-direction: column; align-items: center; justify-content: center; }
-
-/* ── LOGIN ── */
 .login-box {
     background: var(--panel);
     border: 1px solid var(--border);
@@ -100,8 +97,6 @@ input[type="password"]:focus { border-color: var(--cyan); box-shadow: 0 0 12px r
 .btn-green:hover { background: var(--green); color: var(--bg); box-shadow: 0 0 24px rgba(0,255,136,.4); }
 .btn-sm { width: auto; font-size: .75rem; padding: 9px 20px; }
 .err { color: var(--red); font-size: .75rem; margin-top: 10px; min-height: 20px; letter-spacing: 1px; }
-
-/* ── CHARACTERS ── */
 #screen-characters.active { justify-content: flex-start; padding: 40px 24px; }
 .section-title { color: var(--cyan); font-size: 1rem; letter-spacing: 4px; text-align: center; margin-bottom: 4px; }
 .section-sub { color: var(--dim); font-size: .7rem; letter-spacing: 2px; text-align: center; margin-bottom: 32px; }
@@ -121,15 +116,6 @@ input[type="password"]:focus { border-color: var(--cyan); box-shadow: 0 0 12px r
     text-align: center;
     cursor: pointer;
     transition: all .2s;
-    position: relative;
-    overflow: hidden;
-}
-.char-card::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(135deg, rgba(0,255,255,.03), transparent);
-    pointer-events: none;
 }
 .char-card:hover { border-color: var(--cyan); transform: translateY(-3px); box-shadow: 0 6px 24px rgba(0,255,255,.15); }
 .char-card.complete { border-color: var(--green); }
@@ -139,8 +125,6 @@ input[type="password"]:focus { border-color: var(--cyan); box-shadow: 0 0 12px r
 .char-coins { color: var(--yellow); font-size: .72rem; margin-top: 6px; }
 .char-bar { background: var(--border); border-radius: 3px; height: 3px; margin-top: 10px; overflow: hidden; }
 .char-bar-fill { background: linear-gradient(90deg, var(--cyan), var(--green)); height: 100%; transition: width .4s; }
-
-/* ── RECORDING ── */
 #screen-recording.active { justify-content: flex-start; }
 .rec-wrap { padding: 28px 20px; width: 100%; max-width: 680px; margin: 0 auto; }
 .rec-topbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px; flex-wrap: wrap; gap: 12px; }
@@ -150,36 +134,15 @@ input[type="password"]:focus { border-color: var(--cyan); box-shadow: 0 0 12px r
 .badge-coins { color: var(--yellow); font-size: .75rem; margin-top: 2px; }
 .master-bar { background: var(--border); border-radius: 4px; height: 5px; margin-bottom: 24px; overflow: hidden; }
 .master-fill { background: linear-gradient(90deg, var(--cyan), var(--green)); height: 100%; transition: width .5s; }
-
 .line-card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 26px; margin-bottom: 16px; }
 .line-meta { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; }
 .line-counter { color: var(--dim); font-size: .7rem; letter-spacing: 1px; }
 .ctx-tag { background: rgba(0,255,255,.08); border: 1px solid rgba(0,255,255,.15); border-radius: 4px; color: var(--cyan); font-size: .6rem; letter-spacing: 1px; padding: 3px 9px; }
 .dialogue-text { color: #fff; font-size: 1.25rem; line-height: 1.65; margin: 0 0 22px; font-style: italic; min-height: 60px; }
-.reqs {
-    background: rgba(0,0,0,.4);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    font-size: .68rem;
-    color: var(--dim);
-    padding: 12px 16px;
-    line-height: 2;
-    letter-spacing: .3px;
-    margin-bottom: 14px;
-}
+.reqs { background: rgba(0,0,0,.4); border: 1px solid var(--border); border-radius: 6px; font-size: .68rem; color: var(--dim); padding: 12px 16px; line-height: 2; letter-spacing: .3px; margin-bottom: 14px; }
 .reqs b { color: var(--yellow); }
 .play-ref { margin-bottom: 12px; }
-
-.drop-zone {
-    border: 2px dashed var(--border);
-    border-radius: 8px;
-    padding: 28px 20px;
-    text-align: center;
-    transition: all .2s;
-    cursor: pointer;
-    margin-bottom: 10px;
-    position: relative;
-}
+.drop-zone { border: 2px dashed var(--border); border-radius: 8px; padding: 28px 20px; text-align: center; transition: all .2s; cursor: pointer; margin-bottom: 10px; }
 .drop-zone.over { border-color: var(--cyan); background: rgba(0,255,255,.04); }
 .drop-zone.done { border-color: var(--green); background: rgba(0,255,136,.04); cursor: default; }
 .drop-zone.uploading { border-color: var(--yellow); opacity: .7; cursor: wait; }
@@ -187,28 +150,20 @@ input[type="password"]:focus { border-color: var(--cyan); box-shadow: 0 0 12px r
 .drop-label { font-size: .78rem; letter-spacing: .5px; color: var(--dim); }
 .drop-label strong { color: var(--text); }
 .one-take-warn { color: var(--red); font-size: .65rem; letter-spacing: 1px; text-align: center; margin-bottom: 4px; }
-.status-msg { text-align: center; font-size: .78rem; min-height: 22px; letter-spacing: .5px; transition: color .2s; }
+.status-msg { text-align: center; font-size: .78rem; min-height: 22px; letter-spacing: .5px; }
 .status-msg.ok { color: var(--green); }
 .status-msg.err { color: var(--red); }
 .status-msg.wait { color: var(--yellow); }
-
 .nav-row { display: flex; gap: 10px; }
 .nav-row .btn { flex: 1; }
-
-@keyframes coinPop {
-    0%   { transform: scale(0) rotate(-30deg); opacity: 0; }
-    60%  { transform: scale(1.4) rotate(8deg); opacity: 1; }
-    100% { transform: scale(1) rotate(0deg); opacity: 1; }
-}
+@keyframes coinPop { 0% { transform: scale(0) rotate(-30deg); opacity: 0; } 60% { transform: scale(1.4) rotate(8deg); opacity: 1; } 100% { transform: scale(1) rotate(0); opacity: 1; } }
 .pop { display: inline-block; animation: coinPop .5s cubic-bezier(.17,.67,.35,1.3) forwards; }
-
 @keyframes spin { to { transform: rotate(360deg); } }
 .spinner { display: inline-block; animation: spin .8s linear infinite; }
 </style>
 </head>
 <body>
 
-<!-- LOGIN -->
 <div id="screen-login" class="screen active">
     <div class="login-box">
         <div class="logo">★ SF64 ★</div>
@@ -219,7 +174,6 @@ input[type="password"]:focus { border-color: var(--cyan); box-shadow: 0 0 12px r
     </div>
 </div>
 
-<!-- CHARACTERS -->
 <div id="screen-characters" class="screen">
     <div style="width:100%;max-width:1100px;margin:0 auto;padding:0 24px;">
         <div class="section-title">SELECT YOUR CHARACTER</div>
@@ -228,7 +182,6 @@ input[type="password"]:focus { border-color: var(--cyan); box-shadow: 0 0 12px r
     </div>
 </div>
 
-<!-- RECORDING -->
 <div id="screen-recording" class="screen">
     <div class="rec-wrap">
         <div class="rec-topbar">
@@ -242,7 +195,6 @@ input[type="password"]:focus { border-color: var(--cyan); box-shadow: 0 0 12px r
             </div>
         </div>
         <div class="master-bar"><div class="master-fill" id="master-fill"></div></div>
-
         <div class="line-card">
             <div class="line-meta">
                 <span class="line-counter" id="line-counter"></span>
@@ -251,7 +203,7 @@ input[type="password"]:focus { border-color: var(--cyan); box-shadow: 0 0 12px r
             <div class="dialogue-text" id="line-dlg"></div>
             <div class="reqs">
                 <b>RECORDING REQUIREMENTS</b><br>
-                Format: <b>WAV</b> (16-bit PCM recommended) &nbsp;·&nbsp; <b>Mono</b> &nbsp;·&nbsp; Any sample rate<br>
+                Format: <b>WAV</b> (16-bit PCM) &nbsp;·&nbsp; <b>Mono</b> &nbsp;·&nbsp; Any sample rate<br>
                 File name: <b id="req-name"></b><br>
                 Match the energy and pacing of the original line.<br>
                 <b style="color:var(--red)">ONE TAKE ONLY</b> — your submission is final once uploaded.
@@ -265,7 +217,6 @@ input[type="password"]:focus { border-color: var(--cyan); box-shadow: 0 0 12px r
             <div class="one-take-warn">⚠ ONE TAKE ONLY — SUBMISSIONS ARE LOCKED AND FINAL</div>
             <div class="status-msg" id="status"></div>
         </div>
-
         <div class="nav-row">
             <button class="btn" onclick="go(-1)">← PREV</button>
             <button class="btn btn-green" onclick="go(1)">NEXT →</button>
@@ -274,19 +225,15 @@ input[type="password"]:focus { border-color: var(--cyan); box-shadow: 0 0 12px r
 </div>
 
 <script>
-// ═══════════════════════════════════════════════════════════
-//  CONFIG — fill these in before deploying to GitHub Pages
-// ═══════════════════════════════════════════════════════════
+// ── CONFIG ── No token here! Upload goes via GitHub Actions.
 const CFG = {
-    TOKEN:    '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',          // GitHub Personal Access Token
-    OWNER:    'MaixusBetter',
-    REPO:     'sf64-redub',
-    PWD_HASH: 'fdd7546fbbe7712709ea191b28b9ed41390cf5af478ea9e2c238c50483e0096a',// run: sha256sum <(echo -n "yourpassword")
+    OWNER: 'MaixusBetter',
+    REPO:  'sf64-redub',
+    PWD_HASH: 'fdd7546fbbe7712709ea191b28b9ed41390cf5af478ea9e2c238c50483e0096a',
 };
-const BASE   = `https://${CFG.OWNER}.github.io/${CFG.REPO}`;
-const API    = `https://api.github.com/repos/${CFG.OWNER}/${CFG.REPO}`;
+const BASE = `https://${CFG.OWNER}.github.io/${CFG.REPO}`;
+const API  = `https://api.github.com/repos/${CFG.OWNER}/${CFG.REPO}`;
 
-// ─── character emoji ───
 const EMOJI = {
     Fox:'🦊', Falco:'🦅', Slippy:'🐸', Peppy:'🐰',
     Wolf:'🐺', Leon:'🦎', Pigma:'🐷', Andrew:'🐒',
@@ -296,17 +243,13 @@ const EMOJI = {
     'Area 6 Boss':'👾', 'Corneria Boss':'👾', SFX:'🔊',
 };
 
-// ─── state ───
-let catalogue   = null;
-let submitted   = new Set();  // msgIds already uploaded
-let curChar     = null;
-let charLines   = [];
-let lineIdx     = 0;
-let curAudio    = null;
+let catalogue = null;
+let submitted  = new Set();
+let curChar    = null;
+let charLines  = [];
+let lineIdx    = 0;
+let curAudio   = null;
 
-// ═══════════════════════════════════════════════════════════
-//  BOOT
-// ═══════════════════════════════════════════════════════════
 async function boot() {
     try {
         const r = await fetch(`${BASE}/catalogue.json`);
@@ -315,9 +258,6 @@ async function boot() {
     document.getElementById('pwd').addEventListener('keydown', e => { if (e.key==='Enter') login(); });
 }
 
-// ═══════════════════════════════════════════════════════════
-//  LOGIN
-// ═══════════════════════════════════════════════════════════
 async function sha256(s) {
     const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
     return [...new Uint8Array(buf)].map(b=>b.toString(16).padStart(2,'0')).join('');
@@ -325,8 +265,7 @@ async function sha256(s) {
 
 async function login() {
     const btn = document.getElementById('login-btn');
-    btn.disabled = true;
-    btn.textContent = 'AUTHENTICATING...';
+    btn.disabled = true; btn.textContent = 'AUTHENTICATING...';
     const hash = await sha256(document.getElementById('pwd').value);
     if (hash === CFG.PWD_HASH) {
         await loadSubmitted();
@@ -336,18 +275,13 @@ async function login() {
         document.getElementById('pwd').value = '';
         setTimeout(()=>document.getElementById('login-err').textContent='', 3000);
     }
-    btn.disabled = false;
-    btn.textContent = 'ENGAGE';
+    btn.disabled = false; btn.textContent = 'ENGAGE';
 }
 
-// ═══════════════════════════════════════════════════════════
-//  SUBMISSIONS — scan GitHub tree
-// ═══════════════════════════════════════════════════════════
 async function loadSubmitted() {
     submitted.clear();
     try {
-        const r = await fetch(`${API}/git/trees/main?recursive=1`,
-            { headers:{ Authorization:`token ${CFG.TOKEN}` }});
+        const r = await fetch(`${API}/git/trees/main?recursive=1`);
         const d = await r.json();
         (d.tree||[])
             .filter(f=>f.path.startsWith('submissions/')&&f.path.endsWith('.wav'))
@@ -355,20 +289,12 @@ async function loadSubmitted() {
     } catch {}
 }
 
-// ═══════════════════════════════════════════════════════════
-//  SCREENS
-// ═══════════════════════════════════════════════════════════
 function show(id) {
     document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
     document.getElementById(id).classList.add('active');
 }
-
-function showChars() {
-    show('screen-characters');
-    renderChars();
-}
-
-function showCharacters() { showChars(); }  // alias for back button
+function showChars() { show('screen-characters'); renderChars(); }
+function showCharacters() { showChars(); }
 
 function renderChars() {
     if (!catalogue) return;
@@ -391,11 +317,8 @@ function renderChars() {
     });
 }
 
-// ═══════════════════════════════════════════════════════════
-//  RECORDING
-// ═══════════════════════════════════════════════════════════
 function selectChar(ch) {
-    curChar   = ch;
+    curChar = ch;
     charLines = catalogue.lines.filter(l=>l.character===ch);
     const first = charLines.findIndex(l=>!submitted.has(l.msgId));
     lineIdx = first >= 0 ? first : 0;
@@ -408,154 +331,99 @@ function renderLine() {
     const done  = charLines.filter(l=>submitted.has(l.msgId)).length;
     const total = charLines.length;
     const isSub = submitted.has(line.msgId);
-    const emoji = EMOJI[curChar]||'🎭';
-
-    document.getElementById('b-emoji').textContent   = emoji;
-    document.getElementById('b-name').textContent    = curChar.toUpperCase();
-    document.getElementById('b-coins').textContent   = `🪙 ${done} coin${done!==1?'s':''}`;
+    document.getElementById('b-emoji').textContent  = EMOJI[curChar]||'🎭';
+    document.getElementById('b-name').textContent   = curChar.toUpperCase();
+    document.getElementById('b-coins').textContent  = `🪙 ${done} coin${done!==1?'s':''}`;
     document.getElementById('master-fill').style.width = `${total?done/total*100:0}%`;
     document.getElementById('line-counter').textContent = `LINE ${lineIdx+1} OF ${total}`;
-    document.getElementById('line-ctx').textContent  = line.context;
-    document.getElementById('line-dlg').textContent  = `"${line.dialogue}"`;
-    document.getElementById('req-name').textContent  = `${line.msgId}.wav`;
+    document.getElementById('line-ctx').textContent = line.context;
+    document.getElementById('line-dlg').textContent = `"${line.dialogue}"`;
+    document.getElementById('req-name').textContent = `${line.msgId}.wav`;
     setStatus('','');
-
-    const dz    = document.getElementById('dz');
-    const dzI   = document.getElementById('dz-icon');
-    const dzL   = document.getElementById('dz-label');
-
+    const dz=document.getElementById('dz'), dzI=document.getElementById('dz-icon'), dzL=document.getElementById('dz-label');
     if (isSub) {
-        dz.className  = 'drop-zone done';
-        dzI.textContent = '✅';
-        dzL.innerHTML = '<strong>SUBMITTED</strong><br>This take is locked in. Great work, pilot.';
-        dz.onclick = null;
+        dz.className='drop-zone done'; dzI.textContent='✅';
+        dzL.innerHTML='<strong>SUBMITTED</strong><br>This take is locked in. Great work, pilot.';
+        dz.onclick=null;
     } else {
-        dz.className  = 'drop-zone';
-        dzI.textContent = '🎙️';
-        dzL.innerHTML = '<strong>DRAG &amp; DROP YOUR WAV HERE</strong><br>or click to browse files';
-        dz.onclick = () => document.getElementById('file-in').click();
+        dz.className='drop-zone'; dzI.textContent='🎙️';
+        dzL.innerHTML='<strong>DRAG &amp; DROP YOUR WAV HERE</strong><br>or click to browse files';
+        dz.onclick=()=>document.getElementById('file-in').click();
     }
 }
 
-function go(dir) {
-    lineIdx = (lineIdx + dir + charLines.length) % charLines.length;
-    renderLine();
-}
+function go(dir) { lineIdx=(lineIdx+dir+charLines.length)%charLines.length; renderLine(); }
 
-// ═══════════════════════════════════════════════════════════
-//  AUDIO
-// ═══════════════════════════════════════════════════════════
 function playRef() {
-    const line = charLines[lineIdx];
-    if (curAudio) { curAudio.pause(); curAudio = null; }
-    const btn = document.getElementById('play-btn');
-    btn.disabled = true;
-    btn.textContent = '⏸ PLAYING...';
-    curAudio = new Audio(`${BASE}/reference/${line.wav_file}`);
-    curAudio.onended = () => { btn.textContent='▶ PLAY ORIGINAL LINE'; btn.disabled=false; };
-    curAudio.onerror = () => { btn.textContent='▶ PLAY ORIGINAL LINE'; btn.disabled=false; setStatus('Could not load reference audio.','err'); };
+    const line=charLines[lineIdx];
+    if (curAudio) { curAudio.pause(); curAudio=null; }
+    const btn=document.getElementById('play-btn');
+    btn.disabled=true; btn.textContent='⏸ PLAYING...';
+    curAudio=new Audio(`${BASE}/reference/${line.wav_file}`);
+    curAudio.onended=()=>{ btn.textContent='▶ PLAY ORIGINAL LINE'; btn.disabled=false; };
+    curAudio.onerror=()=>{ btn.textContent='▶ PLAY ORIGINAL LINE'; btn.disabled=false; setStatus('Could not load reference audio.','err'); };
     curAudio.play().catch(()=>{ btn.textContent='▶ PLAY ORIGINAL LINE'; btn.disabled=false; });
 }
 
-// ═══════════════════════════════════════════════════════════
-//  DRAG & DROP
-// ═══════════════════════════════════════════════════════════
-const dz = document.getElementById('dz');
-dz.addEventListener('dragover', e=>{ e.preventDefault(); dz.classList.add('over'); });
-dz.addEventListener('dragleave', ()=>dz.classList.remove('over'));
-dz.addEventListener('drop', e=>{
-    e.preventDefault();
-    dz.classList.remove('over');
-    const f = e.dataTransfer.files[0];
-    if (f) handleFile(f);
-});
-
-function onFileSelect(e) {
-    const f = e.target.files[0];
-    if (f) handleFile(f);
-    e.target.value='';
-}
+const dz=document.getElementById('dz');
+dz.addEventListener('dragover',e=>{e.preventDefault();dz.classList.add('over');});
+dz.addEventListener('dragleave',()=>dz.classList.remove('over'));
+dz.addEventListener('drop',e=>{e.preventDefault();dz.classList.remove('over');const f=e.dataTransfer.files[0];if(f)handleFile(f);});
+function onFileSelect(e){const f=e.target.files[0];if(f)handleFile(f);e.target.value='';}
 
 function handleFile(file) {
-    const line = charLines[lineIdx];
-    if (submitted.has(line.msgId)) { setStatus('Already submitted. One take only, pilot!','err'); return; }
-    if (!file.name.toLowerCase().endsWith('.wav')) { setStatus('Please submit a WAV file (.wav)','err'); return; }
-    setStatus('<span class="spinner">⟳</span> Uploading to GitHub…','wait');
-    document.getElementById('dz').className = 'drop-zone uploading';
-    upload(file, line);
+    const line=charLines[lineIdx];
+    if (submitted.has(line.msgId)){setStatus('Already submitted. One take only, pilot!','err');return;}
+    if (!file.name.toLowerCase().endsWith('.wav')){setStatus('Please submit a WAV file (.wav)','err');return;}
+    setStatus('<span class="spinner">⟳</span> Uploading…','wait');
+    document.getElementById('dz').className='drop-zone uploading';
+    upload(file,line);
 }
 
-// ═══════════════════════════════════════════════════════════
-//  GITHUB UPLOAD
-// ═══════════════════════════════════════════════════════════
 function toBase64(buf) {
-    let s=''; const b=new Uint8Array(buf), n=8192;
-    for (let i=0;i<b.length;i+=n) s+=String.fromCharCode(...b.subarray(i,i+n));
+    let s=''; const b=new Uint8Array(buf),n=8192;
+    for(let i=0;i<b.length;i+=n) s+=String.fromCharCode(...b.subarray(i,i+n));
     return btoa(s);
 }
 
 async function upload(file, line) {
     try {
-        const buf  = await file.arrayBuffer();
-        const b64  = toBase64(buf);
-        const path = `submissions/${curChar}/${line.msgId}.wav`;
-        const url  = `${API}/contents/${path}`;
-
-        // Double-check not already there
-        const chk = await fetch(url, { headers:{ Authorization:`token ${CFG.TOKEN}` }});
-        if (chk.ok) {
-            submitted.add(line.msgId);
-            onSubmitSuccess(line);
-            return;
-        }
-
-        const res = await fetch(url, {
-            method:'PUT',
-            headers:{ Authorization:`token ${CFG.TOKEN}`, 'Content-Type':'application/json' },
+        const buf = await file.arrayBuffer();
+        const b64 = toBase64(buf);
+        const res = await fetch(`${API}/dispatches`, {
+            method:'POST',
+            headers:{'Content-Type':'application/json','Accept':'application/vnd.github.v3+json'},
             body: JSON.stringify({
-                message:`[VOICE] ${curChar} — msgId ${line.msgId}`,
-                content: b64,
+                event_type:'voice-upload',
+                client_payload:{ character:curChar, msgId:line.msgId, data:b64 }
             })
         });
-
-        if (res.ok) {
+        if (res.ok||res.status===204) {
             submitted.add(line.msgId);
             onSubmitSuccess(line);
         } else {
-            const e = await res.json();
-            setStatus(`Upload failed: ${e.message||'unknown error'}`, 'err');
+            const e=await res.json().catch(()=>({}));
+            setStatus(`Upload failed: ${e.message||res.status}`,'err');
             document.getElementById('dz').className='drop-zone';
         }
     } catch(e) {
-        setStatus(`Error: ${e.message}`, 'err');
+        setStatus(`Error: ${e.message}`,'err');
         document.getElementById('dz').className='drop-zone';
     }
 }
 
 function onSubmitSuccess(line) {
-    const done  = charLines.filter(l=>submitted.has(l.msgId)).length;
-    const total = charLines.length;
-    document.getElementById('b-coins').innerHTML = `<span class="pop">🪙 ${done} coin${done!==1?'s':''}</span>`;
+    const done=charLines.filter(l=>submitted.has(l.msgId)).length;
+    const total=charLines.length;
+    document.getElementById('b-coins').innerHTML=`<span class="pop">🪙 ${done} coin${done!==1?'s':''}</span>`;
     document.getElementById('master-fill').style.width=`${total?done/total*100:0}%`;
-    setStatus(`🎉 COIN EARNED! ${done} / ${total} lines submitted. Outstanding work, pilot!`, 'ok');
-    renderLine(); // lock drop zone
-
-    // Auto-advance to next open line
-    setTimeout(()=>{
-        const next = charLines.findIndex((l,i)=>i>lineIdx&&!submitted.has(l.msgId));
-        if (next>=0) { lineIdx=next; renderLine(); }
-    }, 2000);
-
-    // Refresh character grid in background
-    setTimeout(renderChars, 500);
+    setStatus(`🎉 COIN EARNED! ${done}/${total} lines submitted. Outstanding work, pilot!`,'ok');
+    renderLine();
+    setTimeout(()=>{const next=charLines.findIndex((l,i)=>i>lineIdx&&!submitted.has(l.msgId));if(next>=0){lineIdx=next;renderLine();}},2000);
+    setTimeout(renderChars,500);
 }
 
-function setStatus(msg, cls) {
-    const el = document.getElementById('status');
-    el.innerHTML = msg;
-    el.className = `status-msg ${cls}`;
-}
-
+function setStatus(msg,cls){const el=document.getElementById('status');el.innerHTML=msg;el.className=`status-msg ${cls}`;}
 boot();
 </script>
 </body>
