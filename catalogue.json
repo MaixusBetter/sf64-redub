@@ -1,0 +1,3674 @@
+{
+  "characters": [
+    "Andrew",
+    "Andross",
+    "Area 6 Boss",
+    "Bill",
+    "Falco",
+    "Fox",
+    "General Pepper",
+    "Granga",
+    "James",
+    "Katt",
+    "Leon",
+    "Macbeth Boss",
+    "Peppy",
+    "Pigma",
+    "Rob 64",
+    "SFX",
+    "Sector X Boss",
+    "Slippy",
+    "Wolf",
+    "Zoness Boss"
+  ],
+  "lines": [
+    {
+      "msgId": 1,
+      "character": "General Pepper",
+      "dialogue": "We need your help Star Fox!",
+      "context": "SYSTEM",
+      "wav_file": "voice_f2_i001.wav",
+      "notes": "Demo/1st recording"
+    },
+    {
+      "msgId": 10,
+      "character": "General Pepper",
+      "dialogue": "Andross has declared war!",
+      "context": "SYSTEM",
+      "wav_file": "voice_f2_i002.wav",
+      "notes": "demo/comms2"
+    },
+    {
+      "msgId": 20,
+      "character": "General Pepper",
+      "dialogue": "He's invaded the lylat system!",
+      "context": "SYSTEM",
+      "wav_file": "voice_f2_i003.wav",
+      "notes": "comms3"
+    },
+    {
+      "msgId": 30,
+      "character": "General Pepper",
+      "dialogue": "And is trying to take over Corneria!",
+      "context": "SYSTEM",
+      "wav_file": "voice_f2_i004.wav",
+      "notes": "comms4"
+    },
+    {
+      "msgId": 40,
+      "character": "General Pepper",
+      "dialogue": "Our army alone can't do the job!",
+      "context": "SYSTEM",
+      "wav_file": "voice_f2_i005.wav",
+      "notes": "comms5"
+    },
+    {
+      "msgId": 50,
+      "character": "Rob 64",
+      "dialogue": "Message from General Pepper.",
+      "context": "SYSTEM",
+      "wav_file": "voice_f2_i006.wav",
+      "notes": "RobVL1"
+    },
+    {
+      "msgId": 60,
+      "character": "SFX",
+      "dialogue": "Comms Power On.",
+      "context": "SYSTEM",
+      "wav_file": "voice_f2_i125.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 1200,
+      "character": "Fox",
+      "dialogue": "Open the wings!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i001.wav",
+      "notes": "FoxComms1"
+    },
+    {
+      "msgId": 1210,
+      "character": "Fox",
+      "dialogue": "Check your G-Diffuser System!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i002.wav",
+      "notes": "FoxComms2"
+    },
+    {
+      "msgId": 1220,
+      "character": "SFX",
+      "dialogue": "Comms Click Glitch.",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i003.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 1230,
+      "character": "Peppy",
+      "dialogue": "This is Peppy all systems go!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i004.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 1240,
+      "character": "Slippy",
+      "dialogue": "Slippy here!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i005.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 1250,
+      "character": "Falco",
+      "dialogue": "I see'em up ahead!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i006.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 1260,
+      "character": "Fox",
+      "dialogue": "We're entering Corneria city now.",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i007.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 1270,
+      "character": "Falco",
+      "dialogue": "This is horrible.",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i008.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 1280,
+      "character": "Peppy",
+      "dialogue": "Slippy Watch!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i009.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 1290,
+      "character": "Slippy",
+      "dialogue": "Woah!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i010.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 1300,
+      "character": "Peppy",
+      "dialogue": "Don't be doing anything foolish!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i011.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 1310,
+      "character": "Falco",
+      "dialogue": "Gotcha!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i012.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 1320,
+      "character": "Falco",
+      "dialogue": "That was!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i013.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 1330,
+      "character": "Peppy",
+      "dialogue": "Do a Barrel Roll!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i014.wav",
+      "notes": "PeppycommsLegendary"
+    },
+    {
+      "msgId": 1340,
+      "character": "Peppy",
+      "dialogue": "You got an enemy on your tail!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i015.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 1350,
+      "character": "Peppy",
+      "dialogue": "Use the Brake!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i016.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 1360,
+      "character": "Peppy",
+      "dialogue": "Follow your father's example Fox!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i017.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 1370,
+      "character": "SFX",
+      "dialogue": "Pip.",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i018.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 1380,
+      "character": "Falco",
+      "dialogue": "I could use some help here Fox!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i019.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 1390,
+      "character": "Falco",
+      "dialogue": "Somethin' is wrong with the G-Diffuser!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i020.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 1400,
+      "character": "Falco",
+      "dialogue": "Pretty smooth flying fox!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i021.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 1410,
+      "character": "Falco",
+      "dialogue": "Follow!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i022.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 1420,
+      "character": "Fox",
+      "dialogue": "Falco!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i023.wav",
+      "notes": "TeamcommsTBD"
+    },
+    {
+      "msgId": 1430,
+      "character": "Falco",
+      "dialogue": "I found the target!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i024.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 1440,
+      "character": "Slippy",
+      "dialogue": "Enemy wuh!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i025.wav",
+      "notes": "Slippycommc"
+    },
+    {
+      "msgId": 1450,
+      "character": "SFX",
+      "dialogue": "Crackle.",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i026.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 1460,
+      "character": "Granga",
+      "dialogue": "You annoying little flies!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i027.wav",
+      "notes": "Grangacomms"
+    },
+    {
+      "msgId": 1470,
+      "character": "Slippy",
+      "dialogue": "Enemy shield analyzed!",
+      "context": "CORNERIA",
+      "wav_file": "voice_f3_i028.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 2005,
+      "character": "Slippy",
+      "dialogue": "Things are starting to heat up!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i001.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 2010,
+      "character": "Peppy",
+      "dialogue": "Quit dicking around!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i002.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 2020,
+      "character": "Fox",
+      "dialogue": "We're heading in to the asteroids!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i003.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 2030,
+      "character": "Slippy",
+      "dialogue": "Here comes a big one!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i004.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 2040,
+      "character": "Peppy",
+      "dialogue": "It's quiet...",
+      "context": "METEO",
+      "wav_file": "voice_f4_i005.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 2050,
+      "character": "Peppy",
+      "dialogue": "Be careful it's a trap!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i006.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 2055,
+      "character": "Falco",
+      "dialogue": "Just shoot it Fox!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i007.wav",
+      "notes": "Peppycomms(not falco)"
+    },
+    {
+      "msgId": 2058,
+      "character": "Peppy",
+      "dialogue": "Don't mess  up that Arwing!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i008.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 2061,
+      "character": "Slippy",
+      "dialogue": "Woah!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i009.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 2062,
+      "character": "Peppy",
+      "dialogue": "The enemy's comming from behind!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i010.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 2080,
+      "character": "Falco",
+      "dialogue": "I guess it's your turn to be thankful!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i011.wav",
+      "notes": "Falco comms"
+    },
+    {
+      "msgId": 2090,
+      "character": "Slippy",
+      "dialogue": "You want a piece of me!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i012.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 2095,
+      "character": "Slippy",
+      "dialogue": "Take that!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i013.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 2110,
+      "character": "Wolf",
+      "dialogue": "I cannot allow you to go any further...",
+      "context": "METEO",
+      "wav_file": "voice_f4_i014.wav",
+      "notes": "Wolfcomms"
+    },
+    {
+      "msgId": 2115,
+      "character": "Wolf",
+      "dialogue": "Let's see what you've got!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i015.wav",
+      "notes": "Wolfcomms"
+    },
+    {
+      "msgId": 2118,
+      "character": "Peppy",
+      "dialogue": "That shield is absorbing the laser!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i016.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 2140,
+      "character": "Wolf",
+      "dialogue": "I've underestimated you!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i017.wav",
+      "notes": "Wolfcomms"
+    },
+    {
+      "msgId": 2165,
+      "character": "Wolf",
+      "dialogue": "How about that!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i018.wav",
+      "notes": "Wolfcomms"
+    },
+    {
+      "msgId": 2166,
+      "character": "Wolf",
+      "dialogue": "I'm no match for you...",
+      "context": "METEO",
+      "wav_file": "voice_f4_i019.wav",
+      "notes": "Wolfcomms"
+    },
+    {
+      "msgId": 2167,
+      "character": "Wolf",
+      "dialogue": "I admit...",
+      "context": "METEO",
+      "wav_file": "voice_f4_i020.wav",
+      "notes": "Wolfcomms"
+    },
+    {
+      "msgId": 2180,
+      "character": "Falco",
+      "dialogue": "Are you going to listen to that mo...(audio break).",
+      "context": "METEO",
+      "wav_file": "voice_f4_i021.wav",
+      "notes": "Falco comms"
+    },
+    {
+      "msgId": 2181,
+      "character": "Wolf",
+      "dialogue": "Haha your not as...",
+      "context": "METEO",
+      "wav_file": "voice_f4_i022.wav",
+      "notes": "Wolfcomms"
+    },
+    {
+      "msgId": 2185,
+      "character": "Wolf",
+      "dialogue": "If This...",
+      "context": "METEO",
+      "wav_file": "voice_f4_i023.wav",
+      "notes": "Wolfcomms"
+    },
+    {
+      "msgId": 2188,
+      "character": "Fox",
+      "dialogue": "Sorry to jet!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i024.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 2200,
+      "character": "Wolf",
+      "dialogue": "I can;t believe I lost to this!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i025.wav",
+      "notes": "Wolfcomms"
+    },
+    {
+      "msgId": 2210,
+      "character": "Wolf",
+      "dialogue": "You're more cunning than I thought!",
+      "context": "METEO",
+      "wav_file": "voice_f4_i026.wav",
+      "notes": "Wolfcomms"
+    },
+    {
+      "msgId": 2220,
+      "character": "SFX",
+      "dialogue": "Beep.",
+      "context": "METEO",
+      "wav_file": "voice_f4_i125.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 2225,
+      "character": "SFX",
+      "dialogue": "Beeeeeeep.",
+      "context": "METEO",
+      "wav_file": "voice_f4_i126.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 3005,
+      "character": "Fox",
+      "dialogue": "Give me Slippy's location Rob.",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i001.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 3010,
+      "character": "Rob 64",
+      "dialogue": "Lifeform indicated at 12'oclock.",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i002.wav",
+      "notes": "Robcomms"
+    },
+    {
+      "msgId": 3015,
+      "character": "Peppy",
+      "dialogue": "There's rocky terrain dead ahead!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i003.wav",
+      "notes": "PeppyOrFoxcomms"
+    },
+    {
+      "msgId": 3020,
+      "character": "Falco",
+      "dialogue": "A magnetic storm!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i004.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 3025,
+      "character": "Falco",
+      "dialogue": "I think you look better in a tank!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i005.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 3026,
+      "character": "Falco",
+      "dialogue": "He can sure be a pain in the neck!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i006.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 3040,
+      "character": "Fox",
+      "dialogue": "Why don't you come down here Falco!?",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i007.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 3041,
+      "character": "Falco",
+      "dialogue": "I'll pass!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i008.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 3042,
+      "character": "Peppy",
+      "dialogue": "Don't go to fast Falco!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i009.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 3050,
+      "character": "Peppy",
+      "dialogue": "Try hovering!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i010.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 3100,
+      "character": "Falco",
+      "dialogue": "Enemy fighters coming at you Fox!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i011.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 3110,
+      "character": "Peppy",
+      "dialogue": "Are you ok Fox?",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i012.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 3120,
+      "character": "Peppy",
+      "dialogue": "Don't be dense Slippy!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i013.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 3300,
+      "character": "Peppy",
+      "dialogue": "Incomming!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i014.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 3310,
+      "character": "Peppy",
+      "dialogue": "You ok?",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i015.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 3315,
+      "character": "Fox",
+      "dialogue": "Is that you Slippy?",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i016.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 3320,
+      "character": "Falco",
+      "dialogue": "I'll be there soon!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i017.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 3321,
+      "character": "Peppy",
+      "dialogue": "Go for the chest!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i018.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 3322,
+      "character": "Slippy",
+      "dialogue": "Data analysis complete!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i019.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 3330,
+      "character": "Slippy",
+      "dialogue": "Do something Fox!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i020.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 3340,
+      "character": "Falco",
+      "dialogue": "Let me get a piece of that action Fox!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i021.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 3345,
+      "character": "Peppy",
+      "dialogue": "Take out his arms Fox!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i022.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 3350,
+      "character": "SFX",
+      "dialogue": "Blip.",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i023.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 3360,
+      "character": "Falco",
+      "dialogue": "Slippy what are you doing? Hurry up!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i024.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 3370,
+      "character": "Slippy",
+      "dialogue": "It's impossible this way!",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i025.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 3371,
+      "character": "Falco",
+      "dialogue": "Sure you can handle it Fox?",
+      "context": "SECTOR_Y",
+      "wav_file": "voice_f5_i026.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 4010,
+      "character": "Fox",
+      "dialogue": "Let's take out that weapon boys!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i001.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 4011,
+      "character": "Falco",
+      "dialogue": "Let's have a little fun!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i002.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 4012,
+      "character": "Falco",
+      "dialogue": "Man are..(cutoff).",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i003.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 4013,
+      "character": "Slippy",
+      "dialogue": "Something's not right!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i004.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 4020,
+      "character": "Peppy",
+      "dialogue": "We're getting close to the base.",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i005.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 4021,
+      "character": "Falco",
+      "dialogue": "Somebody beat us here.",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i006.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 4022,
+      "character": "Falco",
+      "dialogue": "Gah...",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i007.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 4023,
+      "character": "Peppy",
+      "dialogue": "I got tagged by...",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i008.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 4024,
+      "character": "Peppy",
+      "dialogue": "Thanks Fox!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i009.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 4030,
+      "character": "Falco",
+      "dialogue": "I can't wait to see this secret weapon!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i010.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 4031,
+      "character": "Falco",
+      "dialogue": "I found the gate!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i011.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 4040,
+      "character": "Falco",
+      "dialogue": "I'm gonna open the gate!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i012.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 4050,
+      "character": "Fox",
+      "dialogue": "Bill!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i013.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 4075,
+      "character": "Bill",
+      "dialogue": "Of course!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i014.wav",
+      "notes": "Billcomms"
+    },
+    {
+      "msgId": 4080,
+      "character": "Bill",
+      "dialogue": "Take it easy Fox don't let us down!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i015.wav",
+      "notes": "Billcomms"
+    },
+    {
+      "msgId": 4082,
+      "character": "Bill",
+      "dialogue": "Some!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i016.wav",
+      "notes": "Billcomms"
+    },
+    {
+      "msgId": 4083,
+      "character": "Falco",
+      "dialogue": "Who took this base out?",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i017.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 4091,
+      "character": "Peppy",
+      "dialogue": "Hurry up or you're toast!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i018.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 4092,
+      "character": "Peppy",
+      "dialogue": "I'll attack from the outside!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i019.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 4093,
+      "character": "Slippy",
+      "dialogue": "Interceptor system activated!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i020.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 4094,
+      "character": "Peppy",
+      "dialogue": "They're everywhere!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i021.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 4095,
+      "character": "Peppy",
+      "dialogue": "Where is the secret weapon?!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i022.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 4096,
+      "character": "Peppy",
+      "dialogue": "I'm going ahead, back me up Fox!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i023.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 4097,
+      "character": "Falco",
+      "dialogue": "The hell?",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i024.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 4098,
+      "character": "Fox",
+      "dialogue": "So this is the secret weapon!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i025.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 4099,
+      "character": "Falco",
+      "dialogue": "Destroy what?!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i026.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 4100,
+      "character": "Slippy",
+      "dialogue": "Let me handle this!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i027.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 4101,
+      "character": "Rob 64",
+      "dialogue": "Destroy!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i028.wav",
+      "notes": "KatinaRobotcomms"
+    },
+    {
+      "msgId": 4102,
+      "character": "Rob 64",
+      "dialogue": "I will terminate all enemies.",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i029.wav",
+      "notes": "KatinaRobot comms"
+    },
+    {
+      "msgId": 4103,
+      "character": "Rob 64",
+      "dialogue": "You are an enemy!",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i030.wav",
+      "notes": "KatinaRobotcomms"
+    },
+    {
+      "msgId": 4110,
+      "character": "Rob 64",
+      "dialogue": "Where is the creator?",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i031.wav",
+      "notes": "KatinaRobotcomms"
+    },
+    {
+      "msgId": 4111,
+      "character": "Bill",
+      "dialogue": "What's he say?",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i032.wav",
+      "notes": "Billcomms"
+    },
+    {
+      "msgId": 4112,
+      "character": "Rob 64",
+      "dialogue": "View.",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i033.wav",
+      "notes": "KatinaRobotcomms"
+    },
+    {
+      "msgId": 4113,
+      "character": "Rob 64",
+      "dialogue": "Where is the enemy.",
+      "context": "KATINA",
+      "wav_file": "voice_f6_i034.wav",
+      "notes": "KatinaRobotcomms"
+    },
+    {
+      "msgId": 5000,
+      "character": "Falco",
+      "dialogue": "Le.",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i001.wav",
+      "notes": "Let's sneak in low and surprise them Falcocomms"
+    },
+    {
+      "msgId": 5010,
+      "character": "Falco",
+      "dialogue": "This is Zoness!?",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i002.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 5060,
+      "character": "Slippy",
+      "dialogue": "What a dump.",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i003.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 5080,
+      "character": "Falco",
+      "dialogue": "I can't believe they did this.",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i004.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 5100,
+      "character": "Falco",
+      "dialogue": "I hear ya Slip!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i005.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 5110,
+      "character": "Slippy",
+      "dialogue": "Watch out for the searchlight!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i006.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 5130,
+      "character": "Falco",
+      "dialogue": "Let's take'em all out!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i007.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 5220,
+      "character": "Falco",
+      "dialogue": "Uh Oh!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i008.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 5230,
+      "character": "Katt",
+      "dialogue": "We're closing in on them Falco!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i009.wav",
+      "notes": "Kattcomms"
+    },
+    {
+      "msgId": 5300,
+      "character": "Falco",
+      "dialogue": "Katt!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i010.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 5310,
+      "character": "Katt",
+      "dialogue": "Is that any way to greet a girl?",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i011.wav",
+      "notes": "Kattcomms"
+    },
+    {
+      "msgId": 5311,
+      "character": "Katt",
+      "dialogue": "Here I go!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i012.wav",
+      "notes": "Kattcomms"
+    },
+    {
+      "msgId": 5312,
+      "character": "Katt",
+      "dialogue": "Take the right one boy, I have the left!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i013.wav",
+      "notes": "Kattcomms"
+    },
+    {
+      "msgId": 5313,
+      "character": "Peppy",
+      "dialogue": "Enemy chase!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i014.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 5314,
+      "character": "Peppy",
+      "dialogue": "Aim for the rudder Fox!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i015.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 5350,
+      "character": "Slippy",
+      "dialogue": "I've got somebody on my tail!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i016.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 5360,
+      "character": "Katt",
+      "dialogue": "Mess with me, and you'll get scratched!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i017.wav",
+      "notes": "Kattcomms"
+    },
+    {
+      "msgId": 5380,
+      "character": "Falco",
+      "dialogue": "Enemy Fighters spotted!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i018.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 5400,
+      "character": "Falco",
+      "dialogue": "These guys don't quit!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i019.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 5410,
+      "character": "Falco",
+      "dialogue": "Shoot!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i020.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 5420,
+      "character": "Katt",
+      "dialogue": "Woah!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i021.wav",
+      "notes": "Kattcomms"
+    },
+    {
+      "msgId": 5430,
+      "character": "Peppy",
+      "dialogue": "Be careful it might be a trap!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i022.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 5460,
+      "character": "Katt",
+      "dialogue": "Something is coming from the sea!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i023.wav",
+      "notes": "Kattcomms"
+    },
+    {
+      "msgId": 5470,
+      "character": "Zoness Boss",
+      "dialogue": "Argh har har ha!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i024.wav",
+      "notes": "ZonessBosscomms"
+    },
+    {
+      "msgId": 5473,
+      "character": "Zoness Boss",
+      "dialogue": "Disrespectful little welps!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i025.wav",
+      "notes": "ZonessBosscomms"
+    },
+    {
+      "msgId": 5474,
+      "character": "Zoness Boss",
+      "dialogue": "I'll teach ye' some respect!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i026.wav",
+      "notes": "ZonessBosscomms"
+    },
+    {
+      "msgId": 5475,
+      "character": "Zoness Boss",
+      "dialogue": "All sections ready!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i027.wav",
+      "notes": "ZonessBosscomms"
+    },
+    {
+      "msgId": 5492,
+      "character": "Zoness Boss",
+      "dialogue": "Prepare to surface!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i028.wav",
+      "notes": "ZonessBosscomms"
+    },
+    {
+      "msgId": 5493,
+      "character": "Zoness Boss",
+      "dialogue": "Adjust 10 degrees right!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i029.wav",
+      "notes": "ZonessBosscomms"
+    },
+    {
+      "msgId": 5494,
+      "character": "Zoness Boss",
+      "dialogue": "Bengle ok...",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i030.wav",
+      "notes": "ZonessBosscomms"
+    },
+    {
+      "msgId": 5495,
+      "character": "Zoness Boss",
+      "dialogue": "Argh!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i031.wav",
+      "notes": "ZonessBosscomms"
+    },
+    {
+      "msgId": 5496,
+      "character": "Zoness Boss",
+      "dialogue": "I can't see anything.",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i032.wav",
+      "notes": "ZonessBosscomms"
+    },
+    {
+      "msgId": 5497,
+      "character": "Zoness Boss",
+      "dialogue": "Fire!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i033.wav",
+      "notes": "ZonessBosscomms"
+    },
+    {
+      "msgId": 5498,
+      "character": "Zoness Boss",
+      "dialogue": "Aaaaaaaargh! (dies).",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i034.wav",
+      "notes": "ZonessBosscomms"
+    },
+    {
+      "msgId": 5499,
+      "character": "Peppy",
+      "dialogue": "His armour is tough use..(cuts off).",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i035.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 5500,
+      "character": "Peppy",
+      "dialogue": "Destroy the two exhaust pipes!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i036.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 5501,
+      "character": "SFX",
+      "dialogue": "Click click.",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i037.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 5502,
+      "character": "Zoness Boss",
+      "dialogue": "Oh Shoot!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i038.wav",
+      "notes": "ZonessBosscomms"
+    },
+    {
+      "msgId": 5503,
+      "character": "Peppy",
+      "dialogue": "Looks like we're headed for Macbeth!",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i039.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 5504,
+      "character": "Fox",
+      "dialogue": "Katt.",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i040.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 5505,
+      "character": "SFX",
+      "dialogue": "Piup.",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i125.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 5506,
+      "character": "SFX",
+      "dialogue": "Tuuuuuuun.",
+      "context": "ZONESS",
+      "wav_file": "voice_f7_i126.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 6010,
+      "character": "Falco",
+      "dialogue": "Came in here..",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i001.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 6011,
+      "character": "Falco",
+      "dialogue": "Do you copy!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i002.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 6012,
+      "character": "SFX",
+      "dialogue": "Bup.",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i003.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 6013,
+      "character": "Fox",
+      "dialogue": "Entering Venom Air Defense Zone!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i004.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 6014,
+      "character": "Peppy",
+      "dialogue": "Everybody stay alert!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i005.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 6020,
+      "character": "Slippy",
+      "dialogue": "Space Mines ahead!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i006.wav",
+      "notes": "Slippcomms"
+    },
+    {
+      "msgId": 6021,
+      "character": "Falco",
+      "dialogue": "Hold!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i007.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 6024,
+      "character": "Fox",
+      "dialogue": "We're gonna break through that fleet!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i008.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 6025,
+      "character": "SFX",
+      "dialogue": "",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i009.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 6026,
+      "character": "Peppy",
+      "dialogue": "Shoot'em down with B and R!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i010.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 6027,
+      "character": "Macbeth Boss",
+      "dialogue": "Did we get'em.",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i011.wav",
+      "notes": "Macbethbosscomms"
+    },
+    {
+      "msgId": 6028,
+      "character": "SFX",
+      "dialogue": "Not yet sir!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i012.wav",
+      "notes": "Engineercomms"
+    },
+    {
+      "msgId": 6029,
+      "character": "Rob 64",
+      "dialogue": "Great Fox will cover you!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i013.wav",
+      "notes": "Robcomms"
+    },
+    {
+      "msgId": 6036,
+      "character": "Slippy",
+      "dialogue": "This one is mine!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i014.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 6038,
+      "character": "Falco",
+      "dialogue": "Whaaat!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i015.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 6041,
+      "character": "Falco",
+      "dialogue": "Bogey behind you!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i016.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 6042,
+      "character": "Peppy",
+      "dialogue": "They're on me, I'm getting killed!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i017.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 6045,
+      "character": "Slippy",
+      "dialogue": "Venom is right there!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i018.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 6050,
+      "character": "Peppy",
+      "dialogue": "Shoot the tentacles to open the core!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i019.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 6051,
+      "character": "Peppy",
+      "dialogue": "Destroy all 3 energy balls!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i020.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 6055,
+      "character": "Falco",
+      "dialogue": "YeaH!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i021.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 6066,
+      "character": "Slippy",
+      "dialogue": "Yeah, Yeah!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i022.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 6067,
+      "character": "Peppy",
+      "dialogue": "The shield is down shoot the door!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i023.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 6068,
+      "character": "Fox",
+      "dialogue": "Hold on!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i024.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 6069,
+      "character": "Peppy",
+      "dialogue": "Paaah!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i025.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 6071,
+      "character": "Falco",
+      "dialogue": "Let's hold it threough the first line!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i026.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 6072,
+      "character": "Peppy",
+      "dialogue": "They're through the second line!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i027.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 6073,
+      "character": "Macbeth Boss",
+      "dialogue": "These guys just don't give up!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i028.wav",
+      "notes": "Macbethbosscomms"
+    },
+    {
+      "msgId": 6074,
+      "character": "Macbeth Boss",
+      "dialogue": "Damn!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i029.wav",
+      "notes": "Macbethbosscomms"
+    },
+    {
+      "msgId": 6075,
+      "character": "SFX",
+      "dialogue": "The last line has been breached!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i030.wav",
+      "notes": "Engineercomms"
+    },
+    {
+      "msgId": 6076,
+      "character": "Falco",
+      "dialogue": "Alright!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i031.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 6077,
+      "character": "SFX",
+      "dialogue": "Dewey woop!",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i125.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 6078,
+      "character": "SFX",
+      "dialogue": "Duuuuuuun.",
+      "context": "MACBETH",
+      "wav_file": "voice_f8_i126.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 7005,
+      "character": "Fox",
+      "dialogue": "Don't relax!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i001.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 7006,
+      "character": "Falco",
+      "dialogue": "Time to show the monkeys who's boss!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i002.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 7011,
+      "character": "Peppy",
+      "dialogue": "This brings back memories of your dad!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i003.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 7012,
+      "character": "Slippy",
+      "dialogue": "You'll be sorry punk!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i004.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 7013,
+      "character": "Falco",
+      "dialogue": "These guys just keep commin'.",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i005.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 7014,
+      "character": "Falco",
+      "dialogue": "Don't go dying on me Fox!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i006.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 7020,
+      "character": "Falco",
+      "dialogue": "I'll take the lead!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i007.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 7043,
+      "character": "Peppy",
+      "dialogue": "I've got the rear!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i008.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 7050,
+      "character": "Slippy",
+      "dialogue": "I'm beaten up pretty bad.",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i009.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 7051,
+      "character": "Falco",
+      "dialogue": "Geez Louise what the heck happened?",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i010.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 7052,
+      "character": "Slippy",
+      "dialogue": "That temple gives me the creeps.",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i011.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 7053,
+      "character": "Slippy",
+      "dialogue": "What's going on he's running away!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i012.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 7054,
+      "character": "Peppy",
+      "dialogue": "Stay Alert!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i013.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 7061,
+      "character": "Falco",
+      "dialogue": "Don't get too close!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i014.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 7064,
+      "character": "Fox",
+      "dialogue": "It's all coming down to this!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i015.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 7065,
+      "character": "Peppy",
+      "dialogue": "I gota bad feeling about this Fox!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i016.wav",
+      "notes": "PeppyorFalcocomms"
+    },
+    {
+      "msgId": 7066,
+      "character": "Fox",
+      "dialogue": "I'll go at it alone from here!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i017.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 7070,
+      "character": "Peppy",
+      "dialogue": "Foooooox!!!!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i018.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 7083,
+      "character": "Falco",
+      "dialogue": "Foooox!!!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i019.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 7084,
+      "character": "SFX",
+      "dialogue": "Pit.",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i020.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 7085,
+      "character": "Area 6 Boss",
+      "dialogue": "I've been wiating for you Star Fox...",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i021.wav",
+      "notes": "Area6Bosscomms"
+    },
+    {
+      "msgId": 7086,
+      "character": "Area 6 Boss",
+      "dialogue": "You know that I control the galaxy...",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i022.wav",
+      "notes": "Area6Bosscomms"
+    },
+    {
+      "msgId": 7087,
+      "character": "Area 6 Boss",
+      "dialogue": "It's foolish to come against me!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i023.wav",
+      "notes": "Area6bossscomms"
+    },
+    {
+      "msgId": 7093,
+      "character": "Area 6 Boss",
+      "dialogue": "You will die just like your father.",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i024.wav",
+      "notes": "Area6bosscomms"
+    },
+    {
+      "msgId": 7094,
+      "character": "Peppy",
+      "dialogue": "Fox! Are ya' ok?!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i025.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 7095,
+      "character": "Slippy",
+      "dialogue": "Yeassss!",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i026.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 7096,
+      "character": "Falco",
+      "dialogue": "Ok I'll admit it.",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i027.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 7097,
+      "character": "SFX",
+      "dialogue": "Biup.",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i125.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 7098,
+      "character": "SFX",
+      "dialogue": "Duuuuuuuuuuuuuuuuuuuuun.",
+      "context": "AREA_6",
+      "wav_file": "voice_f9_i126.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 8010,
+      "character": "Fox",
+      "dialogue": "Split up!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i001.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 8020,
+      "character": "Falco",
+      "dialogue": "Slippy.",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i002.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 8030,
+      "character": "Falco",
+      "dialogue": "Shoot!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i003.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 8040,
+      "character": "Slippy",
+      "dialogue": "Fox get this guy off me!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i004.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 8045,
+      "character": "Peppy",
+      "dialogue": "Take care of the guy behind me Fox!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i005.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 8050,
+      "character": "Falco",
+      "dialogue": "I can't shake this guy!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i006.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 8060,
+      "character": "Slippy",
+      "dialogue": "Ticks me off!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i007.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 8070,
+      "character": "Peppy",
+      "dialogue": "What's taking you so long Fox!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i008.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 8080,
+      "character": "Peppy",
+      "dialogue": "Dang!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i009.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 8100,
+      "character": "Slippy",
+      "dialogue": "Ahhh!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i010.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 8110,
+      "character": "Peppy",
+      "dialogue": "Shoot them!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i011.wav",
+      "notes": "Peppycoms"
+    },
+    {
+      "msgId": 8120,
+      "character": "Falco",
+      "dialogue": "Gee I've been save by Fox!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i012.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 8130,
+      "character": "Slippy",
+      "dialogue": "Phew!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i013.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 8140,
+      "character": "Peppy",
+      "dialogue": "Your father helped me like that too!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i014.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 8205,
+      "character": "Falco",
+      "dialogue": "Time for a little payback!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i015.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 8210,
+      "character": "Slippy",
+      "dialogue": "You're not getting away that easy!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i016.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 8215,
+      "character": "Fox",
+      "dialogue": "I won;t let you get away from me!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i017.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 8220,
+      "character": "Falco",
+      "dialogue": "You're dead meat!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i018.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 8230,
+      "character": "Slippy",
+      "dialogue": "I'd...",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i019.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 8240,
+      "character": "Peppy",
+      "dialogue": "You're mine!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i020.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 8250,
+      "character": "Falco",
+      "dialogue": "Scratch one bogey!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i021.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 8255,
+      "character": "Slippy",
+      "dialogue": "I got it!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i022.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 8260,
+      "character": "Peppy",
+      "dialogue": "There's one down!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i023.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 8265,
+      "character": "Wolf",
+      "dialogue": "Can't let you do that StarFox!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i024.wav",
+      "notes": "Wolfcomms"
+    },
+    {
+      "msgId": 8300,
+      "character": "Wolf",
+      "dialogue": "Andross has ordered us to take you down!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i025.wav",
+      "notes": "Wolfcomms"
+    },
+    {
+      "msgId": 8310,
+      "character": "Leon",
+      "dialogue": "We're getting payed a lot of cash to take you down!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i026.wav",
+      "notes": "Leoncomms"
+    },
+    {
+      "msgId": 8320,
+      "character": "Pigma",
+      "dialogue": "Peppy long time no see!",
+      "context": "VENOM",
+      "wav_file": "voice_f10_i027.wav",
+      "notes": "Pigmacomms"
+    },
+    {
+      "msgId": 9000,
+      "character": "Fox",
+      "dialogue": "Keep an eye on your shield gauge!",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i001.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 9010,
+      "character": "Falco",
+      "dialogue": "The Arwing might not make it!",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i002.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 9100,
+      "character": "Peppy",
+      "dialogue": "Brace yourselves!",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i003.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 9110,
+      "character": "Peppy",
+      "dialogue": "Shoot the rocks!",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i004.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 9120,
+      "character": "Slippy",
+      "dialogue": "This baby can take temperatures up to 9000 degrees.",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i005.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 9130,
+      "character": "Slippy",
+      "dialogue": "Temperature is 6000 and climbing!",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i006.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 9140,
+      "character": "Slippy",
+      "dialogue": "It's now at 8000.",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i007.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 9150,
+      "character": "Falco",
+      "dialogue": "Looks like you could use some help Fox!",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i008.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 9151,
+      "character": "Fox",
+      "dialogue": "Bill!",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i009.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 9152,
+      "character": "Bill",
+      "dialogue": "Don't get too excited!",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i010.wav",
+      "notes": "Billcomms"
+    },
+    {
+      "msgId": 9153,
+      "character": "Bill",
+      "dialogue": "Watch yourself Fox!",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i011.wav",
+      "notes": "Billcomms"
+    },
+    {
+      "msgId": 9160,
+      "character": "Peppy",
+      "dialogue": "They're attacking in groups!",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i012.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 9170,
+      "character": "Falco",
+      "dialogue": "This is the enemy's bio weapon?",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i013.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 9180,
+      "character": "Falco",
+      "dialogue": "Andross in an insane...",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i014.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 9190,
+      "character": "Peppy",
+      "dialogue": "Maybe it's an Arwing?",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i015.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 9200,
+      "character": "Wolf",
+      "dialogue": "Falco.",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i016.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 9210,
+      "character": "Falco",
+      "dialogue": "I almost.",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i017.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 9211,
+      "character": "Slippy",
+      "dialogue": "It's too hot!",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i018.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 9212,
+      "character": "Peppy",
+      "dialogue": "Don't fly too low your ship can't take it!",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i019.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 9213,
+      "character": "SFX",
+      "dialogue": "Duey woop.",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i125.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 9220,
+      "character": "SFX",
+      "dialogue": "Duuuuuuuuuuuuuuun.",
+      "context": "COMMON",
+      "wav_file": "voice_f11_i126.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 10010,
+      "character": "Fox",
+      "dialogue": "Ok guys!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i001.wav",
+      "notes": "Foxcomms(I think its Falco)"
+    },
+    {
+      "msgId": 10020,
+      "character": "Peppy",
+      "dialogue": "Aim for the 6 energy towers!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i002.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 10040,
+      "character": "Falco",
+      "dialogue": "I'll cover ya Fox!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i003.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 10050,
+      "character": "Slippy",
+      "dialogue": "Your carcus is mine!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i004.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 10060,
+      "character": "Falco",
+      "dialogue": "Hey!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i005.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 10070,
+      "character": "Falco",
+      "dialogue": "Looks like we've got'em.",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i006.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 10080,
+      "character": "Sector X Boss",
+      "dialogue": "Playtime is over Star Fox!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i007.wav",
+      "notes": "SectXBosscomm"
+    },
+    {
+      "msgId": 10200,
+      "character": "Sector X Boss",
+      "dialogue": "I think I'll torture you for a while!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i008.wav",
+      "notes": "SectXBosscomm"
+    },
+    {
+      "msgId": 10210,
+      "character": "Sector X Boss",
+      "dialogue": "James screamed real good! Before he died!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i009.wav",
+      "notes": "SectXBosscomm"
+    },
+    {
+      "msgId": 10220,
+      "character": "Sector X Boss",
+      "dialogue": "You'll be sorry you crossed us!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i010.wav",
+      "notes": "SectXBosscomm"
+    },
+    {
+      "msgId": 10230,
+      "character": "Peppy",
+      "dialogue": "Good! I see the enemy core!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i011.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 10255,
+      "character": "Peppy",
+      "dialogue": "Destroy the satellite's core!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i012.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 10300,
+      "character": "Fox",
+      "dialogue": "Venom, Here we come!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i013.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 10310,
+      "character": "Slippy",
+      "dialogue": "Those ships are shielded too!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i014.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 10320,
+      "character": "Falco",
+      "dialogue": "You are not getting away with this!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i015.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 10321,
+      "character": "Peppy",
+      "dialogue": "What's taking so long Fox!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i016.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 10322,
+      "character": "Slippy",
+      "dialogue": "Give up?",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i017.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 10323,
+      "character": "Fox",
+      "dialogue": "StarWolf again?!",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i018.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 10324,
+      "character": "SFX",
+      "dialogue": "WoooWeee.",
+      "context": "SECTOR_X",
+      "wav_file": "voice_f12_i125.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 11010,
+      "character": "Fox",
+      "dialogue": "Let's back-up the squadron!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i001.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 11020,
+      "character": "Falco",
+      "dialogue": "Somebody's gonna pay for all this!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i002.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 11030,
+      "character": "Peppy",
+      "dialogue": "Don't let any of them get through!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i003.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 11040,
+      "character": "Slippy",
+      "dialogue": "Something's Wrong.",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i004.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 11050,
+      "character": "Peppy",
+      "dialogue": "Hold on they're trying to get through!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i005.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 11060,
+      "character": "Peppy",
+      "dialogue": "Fuck!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i006.wav",
+      "notes": "PeppyOrFoxcomms"
+    },
+    {
+      "msgId": 11100,
+      "character": "Peppy",
+      "dialogue": "Good job keep it up!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i007.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 11110,
+      "character": "Falco",
+      "dialogue": "Is that the best you can do!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i008.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 11120,
+      "character": "Peppy",
+      "dialogue": "You're becoming a better pilot!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i009.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 11130,
+      "character": "Peppy",
+      "dialogue": "Surprise attack coming from above!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i010.wav",
+      "notes": "Peppycom"
+    },
+    {
+      "msgId": 11150,
+      "character": "Peppy",
+      "dialogue": "I'll take care of everything from below!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i011.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 11160,
+      "character": "Falco",
+      "dialogue": "I've got everything from above!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i012.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 11200,
+      "character": "Slippy",
+      "dialogue": "Aha!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i013.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 11210,
+      "character": "Slippy",
+      "dialogue": "Escape!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i014.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 11220,
+      "character": "Slippy",
+      "dialogue": "Hey!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i015.wav",
+      "notes": "Slippycom"
+    },
+    {
+      "msgId": 11230,
+      "character": "Falco",
+      "dialogue": "Take'em down with one shot!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i016.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 11240,
+      "character": "Peppy",
+      "dialogue": "He's quick bacon!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i017.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 11241,
+      "character": "Slippy",
+      "dialogue": "Something is up ahead!",
+      "context": "SOLAR_TITANIA",
+      "wav_file": "voice_f13_i018.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 14020,
+      "character": "Fox",
+      "dialogue": "I spot the train!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i001.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 14030,
+      "character": "Falco",
+      "dialogue": "Hey I've got my Head...",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i002.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 14040,
+      "character": "Peppy",
+      "dialogue": "Don't let him get to the supply depo!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i003.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 14045,
+      "character": "Falco",
+      "dialogue": "I see the fuel bunker on the right side!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i004.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 14050,
+      "character": "Peppy",
+      "dialogue": "Change the switch ahead!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i005.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 14060,
+      "character": "Peppy",
+      "dialogue": "Shoot the 8 switches to open the lock!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i006.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 14070,
+      "character": "Slippy",
+      "dialogue": "Boy!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i007.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 14080,
+      "character": "Slippy",
+      "dialogue": "Chat!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i008.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 14100,
+      "character": "Slippy",
+      "dialogue": "I've got them all!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i009.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 14110,
+      "character": "Peppy",
+      "dialogue": "Ok, now shoot the switch!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i010.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 14120,
+      "character": "Peppy",
+      "dialogue": "Good going Fox!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i011.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 14130,
+      "character": "Peppy",
+      "dialogue": "Well at least we could take this boss out!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i012.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 14140,
+      "character": "SFX",
+      "dialogue": "KerKlunk.",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i013.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 14150,
+      "character": "Peppy",
+      "dialogue": "I'm sure we heard of this one!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i014.wav",
+      "notes": "Peppcomm"
+    },
+    {
+      "msgId": 14160,
+      "character": "Falco",
+      "dialogue": "Now it's our turn to kick some tail!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i015.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 14170,
+      "character": "Slippy",
+      "dialogue": "I can see the look on their stupid faces!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i016.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 14180,
+      "character": "Slippy",
+      "dialogue": "I'm outta here!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i017.wav",
+      "notes": "Slippycom"
+    },
+    {
+      "msgId": 14190,
+      "character": "Leon",
+      "dialogue": "Here come the little hyenas now!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i018.wav",
+      "notes": "Leoncomms"
+    },
+    {
+      "msgId": 14200,
+      "character": "Leon",
+      "dialogue": "Damn!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i019.wav",
+      "notes": "Leoncomms"
+    },
+    {
+      "msgId": 14210,
+      "character": "Leon",
+      "dialogue": "What's wrong!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i020.wav",
+      "notes": "Leoncomm"
+    },
+    {
+      "msgId": 14220,
+      "character": "Leon",
+      "dialogue": "Here ya go!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i021.wav",
+      "notes": "Leoncomm"
+    },
+    {
+      "msgId": 14230,
+      "character": "Leon",
+      "dialogue": "They're not taking me seriously!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i022.wav",
+      "notes": "Leoncomm"
+    },
+    {
+      "msgId": 14300,
+      "character": "Leon",
+      "dialogue": "I'll lure these guys to the front!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i023.wav",
+      "notes": "Leoncomm"
+    },
+    {
+      "msgId": 14310,
+      "character": "Leon",
+      "dialogue": "I didn't expect to have to ask you this here!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i024.wav",
+      "notes": "Leoncomm"
+    },
+    {
+      "msgId": 14320,
+      "character": "Pigma",
+      "dialogue": "You're very lucky Starfox!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i025.wav",
+      "notes": "Pigmacomm"
+    },
+    {
+      "msgId": 14330,
+      "character": "Leon",
+      "dialogue": "Woh!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i026.wav",
+      "notes": "Leoncomm"
+    },
+    {
+      "msgId": 14340,
+      "character": "Leon",
+      "dialogue": "Noooo!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i027.wav",
+      "notes": "Leoncomm"
+    },
+    {
+      "msgId": 14350,
+      "character": "Leon",
+      "dialogue": "Heh heh heh, what's wrong Starfox!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i028.wav",
+      "notes": "Leoncomm"
+    },
+    {
+      "msgId": 14360,
+      "character": "Leon",
+      "dialogue": "Try this!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i029.wav",
+      "notes": "Leoncomm"
+    },
+    {
+      "msgId": 14370,
+      "character": "Leon",
+      "dialogue": "Nooo!",
+      "context": "STAR_WOLF",
+      "wav_file": "voice_f16_i030.wav",
+      "notes": "Leoncomm"
+    },
+    {
+      "msgId": 15010,
+      "character": "Fox",
+      "dialogue": "Hang on guys!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i001.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 15030,
+      "character": "Falco",
+      "dialogue": "Fox you made it!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i002.wav",
+      "notes": "Falcocomm MIght be Bill"
+    },
+    {
+      "msgId": 15040,
+      "character": "Fox",
+      "dialogue": "Is that you!?",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i003.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 15045,
+      "character": "Bill",
+      "dialogue": "We can catch up later Fox!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i004.wav",
+      "notes": "Billcomm"
+    },
+    {
+      "msgId": 15050,
+      "character": "Slippy",
+      "dialogue": "Time to tell the good guys!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i005.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 15051,
+      "character": "Falco",
+      "dialogue": "Try shooting the bad guys Fox!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i006.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 15052,
+      "character": "Bill",
+      "dialogue": "Fox, that's one of ours!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i007.wav",
+      "notes": "Billcomm"
+    },
+    {
+      "msgId": 15053,
+      "character": "Bill",
+      "dialogue": "Husky Unit!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i008.wav",
+      "notes": "Billcomm"
+    },
+    {
+      "msgId": 15054,
+      "character": "Bill",
+      "dialogue": "Bulldogs here!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i009.wav",
+      "notes": "Billcomm"
+    },
+    {
+      "msgId": 15060,
+      "character": "Fox",
+      "dialogue": "All units report!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i010.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 15100,
+      "character": "Falco",
+      "dialogue": "Man there's just no end to these guys!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i011.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 15110,
+      "character": "Bill",
+      "dialogue": "Enemy mother ship approaching!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i012.wav",
+      "notes": "Billcomm"
+    },
+    {
+      "msgId": 15120,
+      "character": "Bill",
+      "dialogue": "You've become quite a pilot!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i013.wav",
+      "notes": "Billcomm"
+    },
+    {
+      "msgId": 15130,
+      "character": "Bill",
+      "dialogue": "Here they come!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i014.wav",
+      "notes": "Billcomm"
+    },
+    {
+      "msgId": 15140,
+      "character": "Bill",
+      "dialogue": "Go for the under hatches and fire!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i015.wav",
+      "notes": "Billcomm"
+    },
+    {
+      "msgId": 15200,
+      "character": "Fox",
+      "dialogue": "The hatches are open!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i016.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 15210,
+      "character": "Fox",
+      "dialogue": "There's some sort of energy reaction!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i017.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 15220,
+      "character": "Fox",
+      "dialogue": "The core has appeared.",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i018.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 15230,
+      "character": "Fox",
+      "dialogue": "Hurry up and take out that door!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i019.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 15240,
+      "character": "Bill",
+      "dialogue": "There's not much time left!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i020.wav",
+      "notes": "Billcom"
+    },
+    {
+      "msgId": 15250,
+      "character": "James",
+      "dialogue": "Yeeh Hah! you did it!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i021.wav",
+      "notes": "Jamescomm"
+    },
+    {
+      "msgId": 15251,
+      "character": "James",
+      "dialogue": "Fox!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i022.wav",
+      "notes": "Jamescomm"
+    },
+    {
+      "msgId": 15252,
+      "character": "Fox",
+      "dialogue": "All aircraft break away!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i023.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 15253,
+      "character": "Fox",
+      "dialogue": "Dang!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i024.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 15254,
+      "character": "Peppy",
+      "dialogue": "Don't getcha down Fox!",
+      "context": "ANDROSS",
+      "wav_file": "voice_f17_i025.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 16010,
+      "character": "Fox",
+      "dialogue": "Say your prayers Andross!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i001.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 16020,
+      "character": "Wolf",
+      "dialogue": "Don't get too cocky Starfox!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i002.wav",
+      "notes": "Wolfcomm"
+    },
+    {
+      "msgId": 16030,
+      "character": "Fox",
+      "dialogue": "Pop!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i003.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 16040,
+      "character": "Andross",
+      "dialogue": "Let's see how you handle our new ships.",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i004.wav",
+      "notes": "AndrosscommWolf"
+    },
+    {
+      "msgId": 16046,
+      "character": "Pigma",
+      "dialogue": "Too bad your father's not here!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i005.wav",
+      "notes": "Pigmacomm"
+    },
+    {
+      "msgId": 16047,
+      "character": "Andrew",
+      "dialogue": "We'll make sure you never reach Andross!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i006.wav",
+      "notes": "Andrewcomm"
+    },
+    {
+      "msgId": 16050,
+      "character": "Fox",
+      "dialogue": "We'll just see about that Star Wolf.",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i007.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 16055,
+      "character": "Falco",
+      "dialogue": "You guys don't give up!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i008.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 16060,
+      "character": "Andross",
+      "dialogue": "Now you will feel true pain!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i009.wav",
+      "notes": "Androsscomms"
+    },
+    {
+      "msgId": 16080,
+      "character": "Andross",
+      "dialogue": "Moan (*>o<||.",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i010.wav",
+      "notes": "Androsscomms"
+    },
+    {
+      "msgId": 16085,
+      "character": "Andross",
+      "dialogue": "If I go down I;m taking you with me!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i011.wav",
+      "notes": "Androsscomms"
+    },
+    {
+      "msgId": 16090,
+      "character": "James",
+      "dialogue": "Follow me Fox!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i012.wav",
+      "notes": "Jamescomms"
+    },
+    {
+      "msgId": 16100,
+      "character": "Fox",
+      "dialogue": "Father?",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i013.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 16110,
+      "character": "James",
+      "dialogue": "This way Fox.",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i014.wav",
+      "notes": "Jamescomm"
+    },
+    {
+      "msgId": 16120,
+      "character": "James",
+      "dialogue": "Never give up.",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i015.wav",
+      "notes": "Jamescomm"
+    },
+    {
+      "msgId": 16125,
+      "character": "James",
+      "dialogue": "You've become so strong Fox.",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i016.wav",
+      "notes": "Jamescomm"
+    },
+    {
+      "msgId": 16130,
+      "character": "Peppy",
+      "dialogue": "Fox you're ok!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i017.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 16135,
+      "character": "Slippy",
+      "dialogue": "Way to go!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i018.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 16140,
+      "character": "Falco",
+      "dialogue": "That's our leader!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i019.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 16150,
+      "character": "Peppy",
+      "dialogue": "What's wrong Fox!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i020.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 16160,
+      "character": "Fox",
+      "dialogue": "Nothing!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i021.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 16165,
+      "character": "Wolf",
+      "dialogue": "What!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i022.wav",
+      "notes": "Wolfcomms"
+    },
+    {
+      "msgId": 16170,
+      "character": "Wolf",
+      "dialogue": "I'll take care of you!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i023.wav",
+      "notes": "Wolfcomms"
+    },
+    {
+      "msgId": 16175,
+      "character": "Pigma",
+      "dialogue": "I'm gonna bust you up real good!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i024.wav",
+      "notes": "Pigmacomms"
+    },
+    {
+      "msgId": 16180,
+      "character": "Falco",
+      "dialogue": "You're not welcome here.",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i025.wav",
+      "notes": "Falcocomms"
+    },
+    {
+      "msgId": 16185,
+      "character": "Wolf",
+      "dialogue": "You're good but I'm better!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i026.wav",
+      "notes": "Wolfcomms"
+    },
+    {
+      "msgId": 16200,
+      "character": "Wolf",
+      "dialogue": "Not yet.",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i027.wav",
+      "notes": "Wolf comms"
+    },
+    {
+      "msgId": 16210,
+      "character": "Andrew",
+      "dialogue": "You can't beat me!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i028.wav",
+      "notes": "Andrewcomms"
+    },
+    {
+      "msgId": 16220,
+      "character": "Andrew",
+      "dialogue": "Give it up!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i029.wav",
+      "notes": "Andrewcomms"
+    },
+    {
+      "msgId": 16230,
+      "character": "Andrew",
+      "dialogue": "No way!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i030.wav",
+      "notes": "Andrewcomms"
+    },
+    {
+      "msgId": 16240,
+      "character": "Andrew",
+      "dialogue": "Kill.",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i031.wav",
+      "notes": "Andrewcomm"
+    },
+    {
+      "msgId": 16250,
+      "character": "Pigma",
+      "dialogue": "This can't be happening!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i032.wav",
+      "notes": "Pigmacomms"
+    },
+    {
+      "msgId": 16260,
+      "character": "Peppy",
+      "dialogue": "AhhhhhhhhhhhhhH!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i033.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 16270,
+      "character": "Fox",
+      "dialogue": "I see you got new ships.",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i034.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 16280,
+      "character": "Slippy",
+      "dialogue": "Hey!",
+      "context": "VERSUS",
+      "wav_file": "voice_f18_i035.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 17010,
+      "character": "Fox",
+      "dialogue": "All aircrafts report.",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i001.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 17020,
+      "character": "Fox",
+      "dialogue": "Slippy.",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i002.wav",
+      "notes": "Slippycomms"
+    },
+    {
+      "msgId": 17030,
+      "character": "Peppy",
+      "dialogue": "Everything's A ok!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i003.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 17100,
+      "character": "Slippy",
+      "dialogue": "I'm having some trouble here.",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i004.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 17110,
+      "character": "Peppy",
+      "dialogue": "I've taken a few hits but I'm ok!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i005.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 17120,
+      "character": "Slippy",
+      "dialogue": "I though I was a gonner!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i006.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 17130,
+      "character": "Peppy",
+      "dialogue": "I saw my life flash before my eyes!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i007.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 17131,
+      "character": "Peppy",
+      "dialogue": "Eah!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i008.wav",
+      "notes": "Peppycomms"
+    },
+    {
+      "msgId": 17140,
+      "character": "Falco",
+      "dialogue": "You are so lucky!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i009.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 17150,
+      "character": "Falco",
+      "dialogue": "You worry about your own hide!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i010.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 17160,
+      "character": "Fox",
+      "dialogue": "Are you ok?",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i011.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 17170,
+      "character": "Falco",
+      "dialogue": "Shoot I've taken damage!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i012.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 17300,
+      "character": "Fox",
+      "dialogue": "Hey I'm hit!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i013.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 17310,
+      "character": "Slippy",
+      "dialogue": "Slippy's hit!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i014.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 17320,
+      "character": "Falco",
+      "dialogue": "Hey Einstein, your side!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i015.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 17330,
+      "character": "Peppy",
+      "dialogue": "Knock it off Fox!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i016.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 17350,
+      "character": "Slippy",
+      "dialogue": "Hey what's the big idea!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i017.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 17360,
+      "character": "Katt",
+      "dialogue": "You tryin to damadge my pretty face!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i018.wav",
+      "notes": "Kattcomm"
+    },
+    {
+      "msgId": 17370,
+      "character": "Fox",
+      "dialogue": "Send!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i019.wav",
+      "notes": "Foxcomms"
+    },
+    {
+      "msgId": 17380,
+      "character": "Fox",
+      "dialogue": "Nooooooo!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i020.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 17390,
+      "character": "Peppy",
+      "dialogue": "Noooooo!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i021.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 17400,
+      "character": "Slippy",
+      "dialogue": "Nooooooo!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i022.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 17410,
+      "character": "Slippy",
+      "dialogue": "Hey he was mine!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i023.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 17420,
+      "character": "Peppy",
+      "dialogue": "What's the big idea Fox!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i024.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 17430,
+      "character": "Falco",
+      "dialogue": "Go find your own targets!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i025.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 17440,
+      "character": "Fox",
+      "dialogue": "All range mode!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i026.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 17450,
+      "character": "Slippy",
+      "dialogue": "What do you think you're doing!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i027.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 17460,
+      "character": "Peppy",
+      "dialogue": "Watch where you're flying!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i028.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 17470,
+      "character": "Falco",
+      "dialogue": "Get outta my way!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i029.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 17471,
+      "character": "Falco",
+      "dialogue": "Aww man I'm gonna have to back up.",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i030.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 17472,
+      "character": "Peppy",
+      "dialogue": "Alrigth I gotta sit this one out!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i031.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 17473,
+      "character": "Slippy",
+      "dialogue": "If I don't leave I'm gonna be Monkey food!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i032.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 17474,
+      "character": "Rob 64",
+      "dialogue": "Location confirmed.",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i033.wav",
+      "notes": "RobComm"
+    },
+    {
+      "msgId": 17475,
+      "character": "Peppy",
+      "dialogue": "Use the boost to chase!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i034.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 17476,
+      "character": "Peppy",
+      "dialogue": "Do a summer sault!",
+      "context": "TRAINING",
+      "wav_file": "voice_f19_i035.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 18000,
+      "character": "General Pepper",
+      "dialogue": "We are in your debt Star Fox!",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i001.wav",
+      "notes": "Peppercomm"
+    },
+    {
+      "msgId": 18005,
+      "character": "General Pepper",
+      "dialogue": "Honored to be at your service.",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i002.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 18006,
+      "character": "Falco",
+      "dialogue": "Oh no shit!",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i003.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 18007,
+      "character": "Rob 64",
+      "dialogue": "Play fuck.",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i004.wav",
+      "notes": "Robcomm"
+    },
+    {
+      "msgId": 18010,
+      "character": "Fox",
+      "dialogue": "It's time for us to go now.",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i005.wav",
+      "notes": "Foxcomm"
+    },
+    {
+      "msgId": 18015,
+      "character": "Peppy",
+      "dialogue": "I'm going round!",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i006.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 18018,
+      "character": "Peppy",
+      "dialogue": "I'm going left.",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i007.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 18020,
+      "character": "Peppy",
+      "dialogue": "I'm going up!",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i008.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 18021,
+      "character": "Peppy",
+      "dialogue": "I'm going down.",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i009.wav",
+      "notes": "Peppycomm"
+    },
+    {
+      "msgId": 18022,
+      "character": "Slippy",
+      "dialogue": "I'm going right.",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i010.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 18025,
+      "character": "Slippy",
+      "dialogue": "I'm going left.",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i011.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 18030,
+      "character": "Slippy",
+      "dialogue": "I'm going up.",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i012.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 18031,
+      "character": "Slippy",
+      "dialogue": "I'm going down!",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i013.wav",
+      "notes": "Slippycomm"
+    },
+    {
+      "msgId": 18035,
+      "character": "Falco",
+      "dialogue": "I'm going right!",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i014.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 18040,
+      "character": "Falco",
+      "dialogue": "I'm going left.",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i015.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 18045,
+      "character": "Falco",
+      "dialogue": "I'm going up.",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i016.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 18050,
+      "character": "Falco",
+      "dialogue": "I'm going down.",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i017.wav",
+      "notes": "Falcocomm"
+    },
+    {
+      "msgId": 18055,
+      "character": "SFX",
+      "dialogue": "Wii.",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i125.wav",
+      "notes": "SFX"
+    },
+    {
+      "msgId": 18060,
+      "character": "SFX",
+      "dialogue": "Buuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuup.",
+      "context": "MAP_LYLAT",
+      "wav_file": "voice_f20_i126.wav",
+      "notes": "SFX"
+    }
+  ]
+}
